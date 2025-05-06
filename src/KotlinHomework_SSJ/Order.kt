@@ -1,10 +1,11 @@
-import kotlin.time.measureTime
+package KotlinHomework_SSJ
 
 class Order (
     val user : User,
     val product: Product,
     val paymentMethod: PaymentMethod,
-    val status: OrderStatus){
+    val status: OrderStatus
+){
 
     fun calculateSubtotal(): Double{
         val discountRate = user.getDiscountRate()

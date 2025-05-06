@@ -1,3 +1,5 @@
+package KotlinHomework_SSJ
+
 fun main(){
     val user = User(
         name = "홍길동",

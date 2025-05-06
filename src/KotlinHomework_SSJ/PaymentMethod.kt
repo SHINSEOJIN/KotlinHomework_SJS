@@ -1,3 +1,5 @@
+package KotlinHomework_SSJ
+
 enum class PaymentMethod(val processingFee: Double) {
     CREDIT_CARD(0.02),
     BANK_TRANSFER(0.01),

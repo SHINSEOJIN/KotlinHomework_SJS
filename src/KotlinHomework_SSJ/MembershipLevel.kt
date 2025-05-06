@@ -1,3 +1,5 @@
+package KotlinHomework_SSJ
+
 enum class MembershipLevel (val discountRate : Double) {
     REGULAR(0.0),
     SILVER(0.05),

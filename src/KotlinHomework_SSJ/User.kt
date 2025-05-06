@@ -1,3 +1,5 @@
+package KotlinHomework_SSJ
+
 class User(
     var name: String,
     var phone: String,
